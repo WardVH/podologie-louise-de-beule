@@ -1,10 +1,12 @@
 import React from "react";
 import Link from "gatsby-link"
 
+import Logo from "./logo.svg";
+
 const Navigation = () => (
   <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <Link to={'/'} className={"navbar-brand"}>
-      <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" className="d-inline-block align-top"
+      <img src={Logo} width="208" height="150" className="d-inline-block align-top"
            alt="Logo"/>
     </Link>
     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"

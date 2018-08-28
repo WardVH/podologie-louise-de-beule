@@ -13,7 +13,9 @@ const TemplateWrapper = ({ children }) => (
     />
     <Header />
     <Navigation/>
-    {children()}
+    <div className={"body"}>
+      {children()}
+    </div>
     <Footer />
   </div>
 );

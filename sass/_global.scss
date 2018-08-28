@@ -5,6 +5,10 @@ body {
     height: 100%;
 }
 
+.body {
+    min-height: 500px;
+}
+
 .visually-hidden {
     position: absolute;
     overflow: hidden;
