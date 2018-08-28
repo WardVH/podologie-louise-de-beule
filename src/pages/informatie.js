@@ -4,7 +4,7 @@ import Paragraph from "../components/paragraph";
 
 const InfoPage = () =>
   (
-    <div className="container test">
+    <div className="container">
       <div>
         <Title value={"Informatie"} />
         <Paragraph title={"Terugbetaling"}>
@@ -31,19 +31,6 @@ const InfoPage = () =>
         <Paragraph title={"Betaalwijze"}>
           <p><b>Het is niet mogelijk met bancontact te betalen in de praktijk.</b></p>
         </Paragraph>
-      </div>
-      <div>
-
-        <h2></h2>
-        <div>
-
-        </div>
-      </div>
-      <div>
-        <h2></h2>
-        <div>
-
-        </div>
       </div>
     </div>
   );
