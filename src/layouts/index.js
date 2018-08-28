@@ -8,9 +8,7 @@ import Navigation from "../components/navigation";
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet
-      title="Podologie"
-    />
+    <Helmet title="Podologie"/>
     <Header />
     <Navigation/>
     <div className={"body"}>
