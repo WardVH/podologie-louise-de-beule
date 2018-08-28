@@ -1,0 +1,13 @@
+.navigation {
+  background-color: #cbe3e3;
+  color: #2a7472;
+  font-size: 16px;
+
+  a {
+    color: #2a7472;
+
+    &.is-active {
+      font-weight: bold;
+    }
+  }
+}

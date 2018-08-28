@@ -3,8 +3,10 @@ import Link from "gatsby-link"
 
 import Logo from "./logo.svg";
 
+import "./_navigation.scss";
+
 const Navigation = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light">
+  <nav className="navbar navbar-expand-lg navigation">
     <div className={"container"}>
       <Link to={'/'} className={"navbar-brand"}>
         <img src={Logo}
