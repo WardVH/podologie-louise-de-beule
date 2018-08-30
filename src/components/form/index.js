@@ -2,7 +2,7 @@ import React from "react";
 import './_form.scss';
 
 const Form = () => (
-  <form method="POST" action="https://formspree.io/YOUREMAILHERE">
+  <form method="POST" action="https://formspree.io/info@podologiedebeule.be">
     <div className="form-row">
       <div className="col-md-6">
         <input type="text" name="name" className="form-control" placeholder="Naam" />
