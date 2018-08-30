@@ -12,11 +12,11 @@ const Contact = () => (
     <div className="container">
       <Title value={"Contact"}/>
       <div className="row group">
-        <div className="col-md-4">
+        <div className="col-md-5 col-lg-4">
           <Location />
           <ContactInfo />
         </div>
-        <div className="col-md-8">
+        <div className="col-md-7 col-lg-8">
           <Form />
         </div>
       </div>
