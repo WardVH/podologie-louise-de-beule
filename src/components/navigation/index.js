@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "gatsby-link"
 
-import Logo from "./logo.svg";
+import Logo from "./assets/logo.svg";
 
 import "./_navigation.scss";
 
