@@ -2,6 +2,7 @@ const pixrem = require('pixrem');
 const autoprefixer = require('autoprefixer');
 
 module.exports = {
+  pathPrefix: "/podologie-louise-de-beule",
   siteMetadata: {
     title: `Podologie De Beule`,
   },
