@@ -41,7 +41,7 @@
     "gatsby-plugin-react-next": "^1.0.8",
     "gatsby-source-filesystem": "^1.5.16",
     "gatsby-transformer-json": "^1.0.14",
-    "gh-pages": "^1.1.0",
+    "gh-pages": "^1.2.0",
     "pixrem": "^4.0.1",
     "shx": "^0.2.2",
     "svg-sprite-loader": "^3.6.2"
