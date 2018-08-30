@@ -3,7 +3,12 @@
   color: #2a7472;
 
   .nav-item {
-    padding-left: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    &:hover {
+      background-color: #a6d1d0;
+    }
   }
 
   a {
