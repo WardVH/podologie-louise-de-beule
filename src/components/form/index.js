@@ -4,10 +4,10 @@ import './_form.scss';
 const Form = () => (
   <form method="POST" action="https://formspree.io/YOUREMAILHERE">
     <div className="form-row">
-      <div className="col">
+      <div className="col-md-6">
         <input type="text" name="name" className="form-control" placeholder="Naam" />
       </div>
-      <div className="col">
+      <div className="col-md-6">
         <input type="email" name="email" className="form-control" placeholder="Emailadres" />
       </div>
     </div>
