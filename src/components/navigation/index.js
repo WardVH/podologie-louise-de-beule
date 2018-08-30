@@ -8,7 +8,7 @@ import "./_navigation.scss";
 const Navigation = () => (
   <nav className="navbar navbar-expand-lg navigation">
     <div className={"container"}>
-      <Link to={'/'} className={"navbar-brand"}>
+      <Link to={'/'} className={"navbar-brand"} activeClassName="active">
         <img src={Logo}
              width="208"
              height="150"
@@ -26,16 +26,16 @@ const Navigation = () => (
           <Link to={'/'} className="nav-link">Home</Link>
         </li>
         <li className="nav-item">
-          <Link to={'/over-mezelf'} className="nav-link">Over mezelf</Link>
+          <Link to={'/over-mezelf'} className="nav-link" activeClassName="active">Over mezelf</Link>
         </li>
         <li className="nav-item">
-          <Link to={'/podologie'} className="nav-link">Podologie</Link>
+          <Link to={'/podologie'} className="nav-link" activeClassName="active">Podologie</Link>
         </li>
         <li className="nav-item">
-          <Link to={'/informatie'} className="nav-link">Info</Link>
+          <Link to={'/informatie'} className="nav-link" activeClassName="active">Info</Link>
         </li>
         <li className="nav-item">
-          <Link to={'/contact'} className="nav-link">Contact</Link>
+          <Link to={'/contact'} className="nav-link" activeClassName="active">Contact</Link>
         </li>
       </ul>
     </div>
