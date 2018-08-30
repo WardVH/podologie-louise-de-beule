@@ -4,6 +4,8 @@ import SlideOne from "./assets/slide1.jpg";
 import SlideTwo from "./assets/slide2.jpg";
 import SlideThree from "./assets/slide3.jpg";
 
+import "./_carousel.scss";
+
 const Carousel = () => (
   <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
     <ol className="carousel-indicators">
