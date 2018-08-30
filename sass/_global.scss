@@ -11,6 +11,11 @@ body {
     min-height: 500px;
 }
 
+.carousel .carousel-item img {
+    max-height: 768px;
+    min-width: auto;
+}
+
 .button {
     text-align: center;
     background-color: #2a7472;
