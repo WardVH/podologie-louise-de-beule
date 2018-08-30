@@ -1,5 +1,7 @@
 import React from 'react';
 import './_footer.scss';
+import ContactInfo from "../contactInfo";
+import Location from "../location";
 
 const Footer = () =>
   (<footer className="footer">
@@ -9,16 +11,12 @@ const Footer = () =>
           <h3>Locatie</h3>
           <div>
             <div className="location-name">Podologie Louise De Beule</div>
-            <div className="location-body">Zandstraat 245<br/>9170 Sint-Pauwels</div>
+            <Location />
           </div>
         </div>
         <div className="col-sm-3">
           <h3>Contact</h3>
-          <div>
-            <span>0470 95 54 05</span>
-            <br/>
-            <span>info@podologiedebeule.be</span>
-          </div>
+          <ContactInfo />
         </div>
       </div>
     </div>

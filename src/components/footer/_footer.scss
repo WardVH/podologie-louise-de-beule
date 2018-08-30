@@ -1,4 +1,17 @@
 .footer {
   height: 500px;
   background: url("./footer_background.png") no-repeat center;
+
+  .container {
+    padding-top: 22rem;
+  }
+
+  h3 {
+    color: black;
+    margin-bottom: 2rem;
+  }
+}
+
+.location-name {
+  font-weight: 800;
 }

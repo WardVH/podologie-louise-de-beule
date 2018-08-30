@@ -1,0 +1,17 @@
+.form-row {
+  margin-bottom: 2rem;
+
+  .btn {
+    background-color: #2b7472;
+    border-color: #2b7472;
+    padding: 1rem;
+    min-width: 16rem;
+    color: white;
+
+    opacity: 0.75;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

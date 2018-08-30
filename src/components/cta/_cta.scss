@@ -5,4 +5,10 @@
   a {
     color: white;
   }
+
+  opacity: 0.75;
+
+  &:hover {
+    opacity: 1;
+  }
 }

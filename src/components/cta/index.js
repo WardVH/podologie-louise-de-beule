@@ -4,7 +4,7 @@ import Link from "gatsby-link"
 import "./_cta.scss";
 
 const CallToAction = props => (
-  <div className={"call-to-action"}>
+  <div className="call-to-action button">
     <Link to={props.to}>
       {props.children}
     </Link>
