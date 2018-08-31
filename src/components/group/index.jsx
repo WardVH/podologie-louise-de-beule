@@ -9,7 +9,7 @@ const Group = props => (
       <div className="col-md-6">
         <img
           src={props.imageUrl}
-          className="img-fluid"
+          className="img img-fluid"
         />
       </div>
       <div className="col-md-6">
@@ -24,7 +24,7 @@ const Group = props => (
       <div className="col-md-6">
         <img
           src={props.imageUrl}
-          className="img-fluid"
+          className="img img-fluid"
         />
       </div>
     </div>

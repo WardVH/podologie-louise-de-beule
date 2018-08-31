@@ -7,14 +7,14 @@ const Footer = () =>
   (<footer className="footer">
     <div className="container">
       <div className="row">
-        <div className="col-sm-9">
+        <div className="col col-sm-6 col-md-9">
           <h3>Locatie</h3>
           <div>
             <div className="location-name">Podologie Louise De Beule</div>
             <Location />
           </div>
         </div>
-        <div className="col-sm-3">
+        <div className="col col-sm-6 col-md-3">
           <h3>Contact</h3>
           <ContactInfo />
         </div>

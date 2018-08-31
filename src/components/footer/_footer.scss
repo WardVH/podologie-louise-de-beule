@@ -1,9 +1,16 @@
 .footer {
   height: 500px;
-  background: url("./footer_background.png") no-repeat center;
+  background: url("./footer_background.png") bottom center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  position: relative;
 
   .container {
-    padding-top: 22rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
   }
 
   h3 {
