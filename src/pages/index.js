@@ -10,13 +10,13 @@ const IndexPage = () => (
       <Title value={"Podologie"}/>
       <div className="row">
         <div className="col-md-4">
-          <CallToAction to={'/podologie#instrumentale-behandeling'} className="nav-link">Pedicure<br/><span>(Instrumentale behandeling)</span></CallToAction>
+          <CallToAction to={'/podologie#instrumentale-behandeling'}>Pedicure<br/><span>(Instrumentale behandeling)</span></CallToAction>
         </div>
         <div className="col-md-4">
-          <CallToAction to={'/podologie#biomechanisch-onderzoek-ganganalyse'} className="nav-link">Biomechanisch onderzoek & ganganalyse</CallToAction>
+          <CallToAction to={'/podologie#biomechanisch-onderzoek-ganganalyse'}>Biomechanisch onderzoek & ganganalyse</CallToAction>
         </div>
         <div className="col-md-4">
-          <CallToAction to={'/podologie#zooltherapie-schoenadvies'} className="nav-link">Zooltherapie en schoenadvies</CallToAction>
+          <CallToAction to={'/podologie#zooltherapie-schoenadvies'}>Zooltherapie en schoenadvies</CallToAction>
         </div>
       </div>
     </div>
