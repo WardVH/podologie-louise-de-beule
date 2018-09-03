@@ -5,9 +5,7 @@ import "./_externalCta.scss";
 
 const ExternalCallToAction = (props) => (
   <div className="external-cta button">
-    <a href={props.href}>
-      {props.children}
-    </a>
+    {props.children}
   </div>
 );
 
