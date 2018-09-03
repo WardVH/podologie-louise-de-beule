@@ -5,7 +5,7 @@ import Carousel from "../components/carousel";
 
 const IndexPage = () => (
   <main>
-    <Carousel/>
+    <Carousel />
     <div className={"container"}>
       <Title value={"Podologie"}/>
       <div className="row">

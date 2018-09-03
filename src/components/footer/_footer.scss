@@ -4,10 +4,18 @@
   -webkit-background-size: cover;
   background-size: cover;
   position: relative;
+  color: #60bfbc;
+
+  pointer-events: none;
+  z-index: -1;
+
+  .contactInfo a {
+    color: #60bfbc;
+  }
 
   .container {
     position: absolute;
-    top: 50%;
+    bottom: 50px;
     left: 50%;
     right: 50%;
     transform: translateX(-50%);

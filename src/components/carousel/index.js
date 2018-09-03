@@ -1,4 +1,5 @@
 import React from "react";
+import MakeAppointment from "../makeAppointment";
 
 import SlideOne from "./assets/slide1.jpg";
 import SlideTwo from "./assets/slide2.jpg";
@@ -23,6 +24,9 @@ const Carousel = () => (
       <div className="carousel-item">
         <img className="d-block w-100" src={SlideThree} alt="Third slide" />
       </div>
+    </div>
+    <div className="carousel-control-next carousel-control-custom">
+      <MakeAppointment />
     </div>
     <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
       <span className="carousel-control-prev-icon" aria-hidden="true"/>

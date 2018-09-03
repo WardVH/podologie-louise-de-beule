@@ -10,4 +10,15 @@
     max-height: 768px;
     min-width: auto;
   }
+
+  .carousel-control-custom {
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+  }
+
+  .externalCtaLink {
+    background-color: #2a7472;
+    padding: 1rem;
+  }
 }
