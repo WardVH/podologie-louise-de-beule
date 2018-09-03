@@ -41,6 +41,12 @@ module.exports = class HTML extends React.Component {
           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
   crossOrigin="anonymous"/>
+          <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.matchHeight/0.7.0/jquery.matchHeight-min.js" />
+          <script>
+            $(function() {
+            $('.cta-homepage').matchHeight();
+            });
+          </script>
 
 
         </head>
