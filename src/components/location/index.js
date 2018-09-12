@@ -2,7 +2,7 @@ import React from "react";
 
 const Location = () => (
   <div>
-    <p>Zandstraat 245<br/>9170 Sint-Pauwels</p>
+    <p><a href={"https://www.google.com/maps/dir/?api=1&destination=Zandstraat 245, 9170 Sint-Pauwels"}>Zandstraat 245<br/>9170 Sint-Pauwels</a></p>
   </div>
 );
 

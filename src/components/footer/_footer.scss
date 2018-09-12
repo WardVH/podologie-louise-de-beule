@@ -9,6 +9,11 @@
   pointer-events: none;
   z-index: -1;
 
+  a {
+    z-index: 99999;
+    color: #60bfbc;
+  }
+
   .contactInfo a {
     color: #60bfbc;
   }
