@@ -1,5 +1,7 @@
 import React from "react";
 
+import ProfileImage from "../assets/profile-cropped.png";
+
 const AboutMePage = () =>
   (
     <div className="container">
@@ -7,7 +9,7 @@ const AboutMePage = () =>
       <div className="row">
         <div className="col-md-6">
           <img
-            src="https://www.pulseheadlines.com/wp-content/uploads/2016/12/jejeje-1.jpg"
+            src={ProfileImage}
             className="img-fluid"
           />
         </div>

@@ -3,11 +3,13 @@ import Paragraph from "../components/paragraph";
 import Title from "../components/title";
 import Group from "../components/group";
 
+import Instruments from "../assets/instrumentaal.jpeg";
+
 const Podologie = () =>
   (
     <div className="container">
       <Title value={"Podologie"} />
-      <Group imageLeft={true} imageUrl={"https://www.pulseheadlines.com/wp-content/uploads/2016/12/jejeje-1.jpg"}>
+      <Group imageLeft={true} imageUrl={Instruments}>
         <Paragraph
           title={"Instrumentele behandeling"}
           anchor={"instrumentale-behandeling"}
