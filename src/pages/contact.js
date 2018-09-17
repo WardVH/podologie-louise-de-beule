@@ -7,7 +7,7 @@ import ExternalCallToAction from "../components/externalcta";
 import MakeAppointment from "../components/makeAppointment";
 import "./_contact.scss";
 
-import Map from "../assets/location.png";
+import Map from "../assets/locatie.png";
 
 const Contact = () => (
   <Fragment>

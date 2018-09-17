@@ -1,7 +1,7 @@
 import React from "react";
 import MakeAppointment from "../makeAppointment";
 
-import SlideOne from "./assets/slide1.jpeg";
+import SlideOne from "./assets/slide1.jpg";
 import SlideTwo from "./assets/slide2.jpg";
 import SlideThree from "./assets/slide3.jpg";
 
