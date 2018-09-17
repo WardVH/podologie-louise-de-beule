@@ -2,8 +2,8 @@ import React from "react";
 import MakeAppointment from "../makeAppointment";
 
 import SlideOne from "./assets/slide1.jpeg";
-import SlideTwo from "./assets/slide2.jpeg";
-import SlideThree from "./assets/slide3.jpeg";
+import SlideTwo from "./assets/slide2.jpg";
+import SlideThree from "./assets/slide3.jpg";
 
 import "./_carousel.scss";
 

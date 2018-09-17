@@ -3,13 +3,15 @@ import Paragraph from "../components/paragraph";
 import Title from "../components/title";
 import Group from "../components/group";
 
-import Instruments from "../assets/instrumentaal.jpeg";
+import Feet from "../assets/voet.jpg";
+import Chair from "../assets/stoel.jpg";
+import FeetAnalysis from "../assets/voetanalyse.jpg";
 
 const Podologie = () =>
   (
     <div className="container">
       <Title value={"Podologie"} />
-      <Group imageLeft={true} imageUrl={Instruments}>
+      <Group imageLeft={true} imageUrl={Chair}>
         <Paragraph
           title={"Instrumentele behandeling"}
           anchor={"instrumentale-behandeling"}
@@ -29,7 +31,7 @@ const Podologie = () =>
           </div>
         </Paragraph>
       </Group>
-      <Group imageLeft={false} imageUrl={"https://www.pulseheadlines.com/wp-content/uploads/2016/12/jejeje-1.jpg"}>
+      <Group imageLeft={false} imageUrl={FeetAnalysis}>
         <Paragraph
           title={"Biomechanisch onderzoek en ganganalyse"}
           anchor={"biomechanisch-onderzoek-ganganalyse"}
@@ -42,7 +44,7 @@ const Podologie = () =>
           </div>
         </Paragraph>
       </Group>
-      <Group imageLeft={true} imageUrl={"https://www.pulseheadlines.com/wp-content/uploads/2016/12/jejeje-1.jpg"}>
+      <Group imageLeft={true} imageUrl={Feet}>
         <Paragraph
           title={"Zooltherapie en schoenadvies"}
           anchor={"zooltherapie-schoenadvies"}
