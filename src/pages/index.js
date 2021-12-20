@@ -1,22 +1,20 @@
 import React from 'react';
 import Title from "../components/title";
-import CallToAction from "../components/cta";
-import Carousel from "../components/carousel";
 
 const IndexPage = () => (
   <main>
-    <Carousel />
     <div className={"container"}>
       <Title value={"Podologie"}/>
       <div className="row">
-        <div className="col-md-4">
-          <CallToAction to={'/podologie#instrumentale-behandeling'}>Pedicure<br/><span>(Instrumentale behandeling)</span></CallToAction>
-        </div>
-        <div className="col-md-4">
-          <CallToAction to={'/podologie#biomechanisch-onderzoek-ganganalyse'}>Biomechanisch onderzoek & ganganalyse</CallToAction>
-        </div>
-        <div className="col-md-4">
-          <CallToAction to={'/podologie#zooltherapie-schoenadvies'}>Zooltherapie en schoenadvies</CallToAction>
+        <div className={"col-md-6"}>
+          <p>Beste patiënten,</p>
+          <p>Ik heb recent de beslissing genomen mijn zelfstandige activiteit als podoloog stop te zetten. Dit aangezien ik de overstap maak naar het onderwijs. De podologie praktijk zal op 31 december 2021 dan ook volledig sluiten.</p>
+          <p>Afspraken die nog gepland staan in 2021 kunnen gewoon doorgaan. De patiënten die al een afspraak hebben staan in 2022 zullen door mij persoonlijk gecontacteerd worden.</p>
+          <p>Op dit moment neem ik geen patiënten meer aan aangezien ik geen verdere opvolging kan garanderen vanaf januari.</p>
+          <p>Voor afspraken in verband met de vernieuwing van zolen, nieuwe patiënten, pedicure problemen, … kan u contact opnemen met verschillende podologen uit de buurt. (vb. Dominique Joris, Naomi Pieters, Fien De Colvenaer, …)</p>
+          <p>Ik wil jullie hartelijk bedanken voor het vertrouwen dat jullie in mij stelden.</p>
+          <p>Vriendelijke groeten,</p>
+          <p>Louise De Beule</p>
         </div>
       </div>
     </div>

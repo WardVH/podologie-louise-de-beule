@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-bb918bc5317ca7653318.js",
-      "component---src-pages-index-js-bb918bc5317ca7653318.js.map"
+      "component---src-pages-index-js-6405eaa2b48614b7014e.js",
+      "component---src-pages-index-js-6405eaa2b48614b7014e.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -25,8 +25,8 @@
       "path---informatie-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-303c05489a1055d5fbdd.js",
-      "component---src-layouts-index-js-303c05489a1055d5fbdd.js.map"
+      "component---src-layouts-index-js-762be46b4f6ed7ae1c88.js",
+      "component---src-layouts-index-js-762be46b4f6ed7ae1c88.js.map"
     ],
     "component---src-pages-over-mezelf-js": [
       "component---src-pages-over-mezelf-js-b5d90b7569bdfeb5e9c0.js",
@@ -37,8 +37,8 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-0c347d1e4c8bf467e306.js",
-      "commons-0c347d1e4c8bf467e306.js.map"
+      "commons-f2e567d8aa5270386443.js",
+      "commons-f2e567d8aa5270386443.js.map"
     ],
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
@@ -49,8 +49,8 @@
       "component---src-pages-podologie-js-539e97bf55b5dafdc8cd.js.map"
     ],
     "app": [
-      "app-5803552aad78cb800d09.js",
-      "app-5803552aad78cb800d09.js.map"
+      "app-77ce898ef82034596e4a.js",
+      "app-77ce898ef82034596e4a.js.map"
     ],
     "path---podologie": [
       "path---podologie-a0e39f21c11f6a62c5ab.js",

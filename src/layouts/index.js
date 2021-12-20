@@ -3,14 +3,10 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import Footer from '../components/footer';
 import '../../sass/style.scss';
-import Header from "../components/header";
-import Navigation from "../components/navigation";
 
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet title="Podologie - Louise De Beule"/>
-    <Header />
-    <Navigation/>
     <div className={"body"}>
       {children()}
     </div>
